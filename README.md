@@ -1,2 +1,0 @@
-# WeightWorkout
-Major Project Assignment  
