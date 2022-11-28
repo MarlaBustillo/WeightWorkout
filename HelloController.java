@@ -1,4 +1,4 @@
-package com.example.weightworkout;
+package com.example.weightworkout2;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -18,7 +18,7 @@ public class HelloController {
 
     }
     protected void onWorkoutButtonClick(){
-        workouts.setText("Please enter what workouts you would like to do")
+        workouts.setText("Please enter what workouts you would like to do");
         ArrayList<String> arms=new ArrayList<>();
         arms.add("Pull ups");
         arms.add("Chairdips");
@@ -29,12 +29,12 @@ public class HelloController {
     }
     protected void onBodypartButtonClick(){
         ArrayList<String> bodypart = new ArrayList<String>();
-        bodypart.add("0. Warmup")
+        bodypart.add("0. Warmup");
         bodypart.add("1.Arms");
         bodypart.add("2.Legs");
         bodypart.add("3.Core");
         bodypart.add("4.Glutes");
         bodyparts.setText("Please choose from the following:");
-        bodyparts.setText(bodypart);
+        bodyparts.setText(String.valueOf(bodypart));
     }
 }
