@@ -15,14 +15,13 @@ public class AddElementsToHashtable {
         ht1.put("Gain Muscle", "8 reps, 3 sets");
         ht1.put("Health and Endurance", "16 reps, 3 sets");
 
-        System.out.println("Here are a couple affordable gyms in your area. Please press enter:");
         ht2.put("Affordable Gyms #1", "Planet Fitness");
         ht2.put("Affordable Gyms #2", "Youfit Gyms");
         ht2.put("Affordable Gyms #3", "LA Fitness");
 
 
-        System.out.println("Mappings of ht1 : " + ht1);
-        System.out.println("Mappings of ht2 : " + ht2);
+        System.out.println("Here are some tips : " + ht1);
+        System.out.println("Here are a couple affordable gyms in your area." + ht2);
     }
 }
 
